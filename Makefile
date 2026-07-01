@@ -10,3 +10,6 @@ fonts: hello_fonts/main.cpp
 anime: hello_animation/main.cpp
 	g++ hello_animation/main.cpp -lSDL2 -lSDL2_image -o bin/hello_animation
 	./bin/hello_animation
+tileset: tileset_test/main.cpp
+	g++ tileset_test/main.cpp -lSDL2 -lSDL2_image -o bin/tileset_test
+	./bin/tileset_test
