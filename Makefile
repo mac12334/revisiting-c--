@@ -13,3 +13,6 @@ anime: hello_animation/main.cpp
 tileset: tileset_test/main.cpp
 	g++ tileset_test/main.cpp -lSDL2 -lSDL2_image -o bin/tileset_test
 	./bin/tileset_test
+link: linked_list_test/main.cpp
+	g++ linked_list_test/main.cpp -o bin/linked_list
+	./bin/linked_list
